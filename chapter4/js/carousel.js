@@ -6,3 +6,10 @@ function carousel () {
     x++;
   }
 }
+
+function switch () {
+  let turns = Number(prompt("How many turns?"));
+  for(let x = 0; x<= turns; x++){
+    document.getElementById('slides').innerHTML=x;
+  }
+}
